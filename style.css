@@ -1,0 +1,186 @@
+body {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:fixed;
+}
+body.index {
+    background-image:url("https://codehs.com/uploads/ead3f99259fb0a93a953d3ce01eff7c2");
+}
+body.yellowstone {
+    background-image:url("https://codehs.com/uploads/1919749eb35e56dd8545d51f42a5a993");
+}
+body.yosemite {
+    background-image:url("https://codehs.com/uploads/6a255d961435d2814d0d3e5248e96314");
+}
+body.zion {
+    background-image:url("https://codehs.com/uploads/d86f13fc05091fba7a66140c6e04079d");
+}
+body.big-bend {
+    background-image:url("https://codehs.com/uploads/3579f01bbf750c139bfc73de0907695a");
+}
+body.crater-lake {
+    background-image:url("https://codehs.com/uploads/271262d137a0fa62f7619b2392ab23de");
+}
+
+/* general style */
+h1, h2, p {
+    background-color:darkgreen;
+    color:white;
+}
+a {
+    color:cyan;
+}
+a:visited {
+    color:darkorchid;
+}
+iframe {
+    width:100%;
+    height:500px;
+}
+
+/* style for headings */
+h1 {
+    font-size:45px;
+    text-align:center;
+    margin:30px 0px 0px 0px;
+}
+h2 {
+    text-align:center;
+    font-size:30px;
+    padding:10px 0px 10px 0px;
+    margin:50px 0px 0px 0px;
+}
+
+/* style for paragraphs */
+p.picture {
+    padding:10px 10px 120px 10px;
+    margin:0px;
+}
+p.picture-base {
+    margin:0px;
+    padding:10px;
+}
+p.paragraph {
+    margin:0px;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+}
+
+/* style for images */
+img.home-page {
+    height:300px;
+    width:600px;
+}
+img.float-right {
+    float:right;
+    margin:0px 0px 0px 10px;
+}
+img.float-left {
+    float:left;
+    margin:0px 10px 0px 0px;
+}
+img {
+    height:200px;
+    width:300px;
+}
+
+/* style for pop-up information */
+.tooltip:hover .tooltip-text{
+    visibility:visible;
+}
+
+.tooltip{
+   position:relative;
+   display:inline-block;
+   height:100px;
+   margin:10px 0px 0px 0px;
+}
+
+.tooltip-text{
+    width: 300px;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    border-radius:6px; /* Create rounded corners*/
+    position: absolute;
+    z-index: 1; 
+    visibility:hidden;
+    text-align:center;
+    top:15px;
+    left:350px;
+}
+span.heading {
+    font-size:20px;
+    font-weight:bold;
+}
+p.caption {
+    background-color:forestgreen;
+}
+p.normal {
+    padding:0px;
+}
+span.picture {
+    margin:0px 0px 0px 400px;
+}
+
+/* footer links */
+a.footer {
+    background-color:darkgreen;
+    text-align:center;
+    color:white;
+}
+a.footer:visited {
+    color:white;
+}
+span.small {
+    float:left;
+    font-size:10px;
+    font-weight:normal;
+}
+img.footer {
+    width:50px;
+    height:50px;
+    float:left;
+}
+
+/* links on front page */
+.link {
+    padding:60px 70px 60px 70px;
+    float:left;
+    font-size:24px;
+    border:2px solid;
+}
+table {
+    width:100%;
+    margin:0px;
+    padding:0px;
+    border:none;
+    background-color:darkgreen;
+}
+.right-ending {
+    border-right:2px white solid;
+}
+.left-ending {
+    border-left:2px white solid;
+}
+.right-ending:hover {
+    border-right:2px black solid;
+}
+.left-ending:hover {
+    border-left:2px black solid;
+}
+.link:link {
+    color:white;
+    background-color:forestgreen;
+}
+.link:visited {
+    color:white;
+    background-color:darkgreen;
+}
+.link:hover {
+    background-color:darkseagreen;
+    color:black;
+}
+.link:active {
+    color:#5a5564;
+}
